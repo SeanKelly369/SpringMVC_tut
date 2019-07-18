@@ -8,10 +8,10 @@ public class Database_Connectivity {
     Connection conn;
     Statement statement;
 
-    String url = "jdbc:postgresql://localhost:5433/";
-    String db_name = "spring";
-    String username = "postgres";
-    String password = "WormV12P$*";
+    String url = "jdbc:postgresql://localhost:5432/";
+    String db_name = "";
+    String username = "";
+    String password = "";
 
     public Statement do_db_connection() {
         try {
